@@ -1,1 +1,2 @@
-Learning Java with a few test codes
+# Learning Java
+Just doing some coding
