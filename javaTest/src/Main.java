@@ -2,14 +2,11 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		Human human = new Human("Rick", 65, 70);
-		Human human2 = new Human("Adriel", 21, 63);
+		CarEnc car = new CarEnc("Volkswagen","Gol bolinha",2009);
+		CarEnc car2 = new CarEnc("Volkswagen","Fusca",1967);
 		
-		System.out.println(human.name);
-		System.out.println(human2.name);
+		car2.copy(car);
 		
-		human.eat();
-		human2.showAge();
-		human.showAge();
+		System.out.println(car2);
 	}
 }
