@@ -24,6 +24,7 @@ public class dinamicPoliAnimal {
 			System.out.println("That choice was invalid");
 			animal.speak();
 		}
+		input.close();
 		
 	}
 }

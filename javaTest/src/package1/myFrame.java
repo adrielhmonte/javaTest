@@ -3,6 +3,7 @@ import java.awt.Color;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
+@SuppressWarnings("serial")
 public class myFrame extends JFrame{
 	
 	myFrame(){
